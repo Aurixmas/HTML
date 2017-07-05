@@ -1,0 +1,70 @@
+header {
+	background-color:red;
+ height:100px;
+ text-align:center;
+
+}
+
+main{
+	background-color: #ff8000;
+	text-align:center;  
+	height: auto;
+}
+
+footer{
+	background-color:#ffff00;
+	height:100px;
+	text-align:center;
+	}
+
+h2 {
+	font-size:120%;
+}
+li {
+	font-family: 'Fjalla One', sans-serif;
+	float: right;
+	padding:10;
+	margin-right:10px;
+	border:1px solid white;
+	font-size:30px;
+}
+   a{
+   	text-decoration:none;
+   	color:green;
+
+	}
+
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.logo {
+float:left;
+height:100%;
+}
+ul{
+	padding-top:30px;
+}
+    .div2{
+    width:49%;	
+    float:left;	
+    border:solid 1px black;
+    }
+    .div1{
+    width:49%;
+    float:right;
+    border:solid 1px black;	
+    }
+    .div p{
+    	padding:20px;
+    }
